@@ -1,0 +1,28 @@
+
+
+.indicator-scope{
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   width: max-content;
+   height: auto;
+   background-color: black;
+   top: -100%;
+   left: -100%;
+   z-index: 9999;
+   padding: 10px;
+   color: aliceblue;
+}
+.indicator-scope.active{
+    top: 0;
+    left:  0;
+} 
+.indicator-scope .indicator-title{
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+}
